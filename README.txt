@@ -9,7 +9,7 @@ A Python project for classifying product images (e.g., electronics, clothing) us
 - Interactive Streamlit dashboard for predictions
 - Linting with black and ruff
 - Environment management with python-dotenv
-- Optional AWS S3 integration via aws_utils (placeholder for cloud skills)
+- Optional AWS S3 integration via aws_utils 
 
 ## Setup
 1. Install dependencies: `pip install -r requirements.txt`
@@ -23,7 +23,6 @@ A Python project for classifying product images (e.g., electronics, clothing) us
 - AWS placeholders in `.env.example` demonstrate cloud compatibility (not used by default).
 
 ## Project Structure
-```
 ├── data/
 │   ├── raw/
 │   └── processed/
@@ -42,5 +41,3 @@ A Python project for classifying product images (e.g., electronics, clothing) us
 ├── pyproject.toml
 ├── requirements.txt
 └── README.md
-```
-```
